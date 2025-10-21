@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ONG Aliança Solidária - Transformando vidas através de projetos sociais">
+    <title>Aliança Solidária - Página Inicial</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+    <!-- Link para pular navegação - ACESSIBILIDADE -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <div class="container">
+        <header class="header" role="banner">
+            <nav class="nav" role="navigation" aria-label="Navegação principal">
+                <div class="logo-container">
+                    <h1>Aliança Solidária</h1>
+                    <p>Transformando vidas, construindo futuros</p>
+                </div>
+                
+                <!-- Botões de acessibilidade -->
+                <div class="accessibility-buttons">
+                    <button id="high-contrast-btn" class="btn-accessibility" aria-label="Ativar alto contraste">
+                        🌗 Alto Contraste
+                    </button>
+                    <button id="font-size-btn" class="btn-accessibility" aria-label="Aumentar tamanho da fonte">
+                        🔍 A+
+                    </button>
+                </div>
+                
+                <button class="menu-toggle" aria-label="Menu principal" aria-expanded="false" aria-controls="main-menu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </button>
+                
+                <ul class="nav-menu" id="main-menu" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="index.html" class="nav-link active" role="menuitem" aria-current="page">Início</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="projetos.html" class="nav-link" role="menuitem">Projetos</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="cadastro.html" class="nav-link" role="menuitem">Cadastre-se</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content" class="main" role="main" tabindex="-1">
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-image">
+                    <picture>
+                        <source srcset="../images/sobre-nos.webp" type="image/webp">
+                        <source srcset="../images/sobre-nos.jpg" type="image/jpeg">
+                        <img src="../images/sobre-nos.jpg" alt="Voluntários da Aliança Solidária trabalhando juntos em projeto comunitário" loading="lazy" width="600" height="400">
+                    </picture>
+                </div>
+                <div class="hero-content">
+                    <h1 id="hero-title">Juntos Transformamos Realidades</h1>
+                    <p>Há 15 anos atuando em comunidades carentes com projetos de educação, saúde e desenvolvimento social</p>
+                    <a href="cadastro.html" class="btn btn-primary btn-large">Junte-se a Nós</a>
+                </div>
+            </section>
+
+            <section class="sobre" aria-labelledby="sobre-title">
+                <h2 id="sobre-title">Sobre a Aliança Solidária</h2>
+                
+                <div class="card-grid" role="list">
+                    <article class="card" role="listitem">
+                        <h3>Nossa Missão</h3>
+                        <div class="card-image">
+                            <picture>
+                                <source srcset="../images/missao.webp" type="image/webp">
+                                <source srcset="../images/missao.jpg" type="image/jpeg">
+                                <img src="../images/missao.jpg" alt="Crianças sorrindo enquanto participam de atividades educativas" loading="lazy" width="400" height="300">
+                            </picture>
+                        </div>
+                        <p>Promover o desenvolvimento social e a cidadania através de projetos sustentáveis que transformam realidades.</p>
+                        <span class="badge badge-primary" aria-label="Categoria: Missão">Missão</span>
+                    </article>
+
+                    <article class="card" role="listitem">
+                        <h3>Nossos Valores</h3>
+                        <ul aria-label="Lista de valores">
+                            <li>💙 Transparência em todas as ações</li>
+                            <li>🤝 Solidariedade e cooperação</li>
+                            <li>🌱 Sustentabilidade ambiental</li>
+                            <li>🎯 Compromisso com resultados</li>
+                        </ul>
+                        <span class="badge badge-secondary" aria-label="Categoria: Valores">Valores</span>
+                    </article>
+
+                    <article class="card" role="listitem">
+                        <h3>Nossas Conquistas</h3>
+                        <div class="card-image">
+                            <picture>
+                                <source srcset="../images/conquistas.webp" type="image/webp">
+                                <source srcset="../images/conquistas.jpg" type="image/jpeg">
+                                <img src="../images/conquistas.jpg" alt="Comunidade celebrando juntas as conquistas alcançadas" loading="lazy" width="400" height="300">
+                            </picture>
+                        </div>
+                        <ul aria-label="Lista de conquistas">
+                            <li>+50.000 vidas impactadas</li>
+                            <li>+100 projetos implementados</li>
+                            <li>+2.000 voluntários cadastrados</li>
+                        </ul>
+                        <span class="badge badge-success" aria-label="Categoria: Conquistas">Conquistas</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="contato" aria-labelledby="contato-title">
+                <h2 id="contato-title">Entre em Contato</h2>
+                <div class="card">
+                    <address>
+                        <p>📧 <strong>Email:</strong> <a href="mailto:contato@aliancasolidaria.org">contato@aliancasolidaria.org</a></p>
+                        <p>📞 <strong>Telefone:</strong> <a href="tel:+551112345678">(11) 1234-5678</a></p>
+                        <p>📍 <strong>Endereço:</strong> Rua das Flores, 123 - Centro, São Paulo - SP</p>
+                    </address>
+                    <div class="contact-image">
+                        <picture>
+                            <source srcset="../images/equipe.webp" type="image/webp">
+                            <source srcset="../images/equipe.jpg" type="image/jpeg">
+                            <img src="../images/equipe.jpg" alt="Equipe diversificada da Aliança Solidária reunida para foto" loading="lazy" width="400" height="300">
+                        </picture>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" role="contentinfo">
+            <div class="footer-content">
+                <p>&copy; 2024 Aliança Solidária. Todos os direitos reservados.</p>
+                <p><strong>CNPJ:</strong> 12.345.678/0001-90</p>
+                <p class="accessibility-statement">
+                    <a href="#main-content">Voltar ao topo</a> | 
+                    <a href="acessibilidade.html">Declaração de Acessibilidade</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/script.min.js"></script>
+</body>
+</html>
