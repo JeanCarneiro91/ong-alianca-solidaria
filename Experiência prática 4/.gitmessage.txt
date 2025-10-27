@@ -1,0 +1,15 @@
+# Commit Semântico
+# <tipo>(<escopo>): <descrição>
+#
+# Tipos:
+# feat: Nova funcionalidade
+# fix: Correção de bug
+# docs: Documentação
+# style: Formatação (espaços, vírgulas)
+# refactor: Refatoração sem mudança funcional
+# test: Testes
+# chore: Tarefas de build, configuração
+#
+# Exemplo: feat(doacao): implementa pagamento com PIX
+# Exemplo: fix(acessibilidade): corrige contraste botões
+# Exemplo: docs(readme): adiciona instruções de instalação
