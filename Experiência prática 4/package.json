@@ -1,0 +1,14 @@
+{
+  "name": "ong-alianca-solidaria",
+  "version": "1.0.0",
+  "description": "Sistema para ONG Aliança Solidária",
+  "scripts": {
+    "build:css": "cleancss -o assets/css/style.min.css assets/css/style.css",
+    "build:js": "uglifyjs assets/js/script.js -o assets/js/script.min.js",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "uglify-js": "^3.17.4"
+  }
+}
